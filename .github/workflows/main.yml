@@ -47,7 +47,7 @@ jobs:
         # Запуск скрипта авторизации на Docker Hub
         uses: docker/login-action@v1
         with:
-          username: kabashin@mail.ru
+          username: kabashin
           password: A2597711a
       - name: Push to Docker Hub
         # Пуш образа в Docker Hub
